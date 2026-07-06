@@ -37,6 +37,6 @@ pnpm start
 
 ## Current State
 
-The repository includes reusable landing page components such as `Hero`, `Header`,
-and `Profile`, but the current home route in `app/page.tsx` renders an empty
-`<main>` shell. Keep that in mind when validating user-facing changes.
+The home route now renders a basic landing page using the shared `Hero`,
+`Header`, and `Profile` components. Future frontend work can extend those
+building blocks instead of starting from an empty shell.
